@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php
 function tukar_besar_kecil($string){
     for($i = 0; $i < strlen($string); $i++) {
@@ -18,3 +26,5 @@ echo tukar_besar_kecil('IT sHOULD bE me'); // "it Should Be ME"
 echo tukar_besar_kecil('001-A-3-5TrdYW'); // "001-a-3-5tRDyw"
 
 ?>
+</body>
+</html>
